@@ -1,54 +1,6 @@
-/*
 #include <iostream>
 #include <cstdlib> // Para generar números aleatorios
-
-
-using namespace std;
-
-// Función para generar un voto aleatorio
-int generarVotoAleatorio() {
-    return rand() % 51;
-}
-
-int main() {
-    // Inicializar la semilla de generación aleatoria
-    srand(time(0));
-
-    // Definir el número de candidatos
-    const int numCandidatos = 3;
-
-    // Definir el número de rondas
-    const int numRondas = 5;
-
-    // Crear una matriz para almacenar los nombres de los candidatos
-    string nombresCandidatos[numCandidatos] = {"Candidato 1", "Candidato 2", "Candidato 3"};
-
-    // Crear una matriz para almacenar los votos
-    int votos[numCandidatos][numRondas];
-
-    // Generar votos aleatorios para cada candidato en cada ronda
-    for (int i = 0; i < numCandidatos; i++) {
-        for (int j = 0; j < numRondas; j++) {
-            votos[i][j] = generarVotoAleatorio();
-        }
-    }
-
-    // Mostrar los nombres de los candidatos y los votos recibidos en cada ronda
-    for (int i = 0; i < numCandidatos; i++) {
-        cout << "**" << nombresCandidatos[i] << "**" << endl;
-        for (int j = 0; j < numRondas; j++) {
-            cout << "Ronda " << j + 1 << ": " << votos[i][j] << " votos" << endl;
-        }
-        cout << endl;
-    }
-
-    return 0;
-}
-*/
-
-#include <iostream>
-#include <cstdlib> // Para generar números aleatorios
-
+// Ruddyard Castro 9955-23-1409
 using namespace std;
 
 // Función para generar un voto aleatorio
