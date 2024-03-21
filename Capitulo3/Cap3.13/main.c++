@@ -1,20 +1,22 @@
 // Ruddyard Castro 9959-23-1409 
-
+// 3.13
 #include <string>
 #include <iostream>
 using namespace std;
 
 class Factura {
 private:
-    string NoPieza;
+    string noPieza;
     string descripcionPieza;
     int cantidad;
     int precioPorArt;
 
 public:
     // Constructor con cuatro parámetros
+    //Parametros en mayusculas 
+    // Atributos en minuscula 
     Factura(string Nopiezas, string DesPieza, int Cantidad, int PrecioPorArt) {
-        NoPieza = Nopiezas;
+        noPieza = Nopiezas;
         descripcionPieza = DesPieza;
 // Si la cantidad no es positiva, se establece en 1
         cantidad = (Cantidad > 0) ? Cantidad : 1; 
@@ -23,8 +25,8 @@ public:
     }
 
     // Funciones para establecer y obtener los valores de los miembros de datos
-    void establecerNoPieza(string Nopiezas) { NoPieza = Nopiezas; }
-         string obtenerNoPieza() const { return NoPieza; }
+    void establecerNoPieza(string Nopiezas) { noPieza = Nopiezas; }
+         string obtenerNoPieza() const { return noPieza; }
 
     void establecerDescripcionPieza(string DesPieza) { descripcionPieza = DesPieza; }
          string descripcionPiezas() const { return descripcionPieza; }
