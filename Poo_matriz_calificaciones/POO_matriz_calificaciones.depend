@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1712532653 source:c:\users\ruddyard\desktop\poo_matriz_calificaciones\main.cpp
+	<iostream>
+	<calificaciones.h>
+
+1712532806 c:\users\ruddyard\desktop\poo_matriz_calificaciones\include\calificaciones.h
+	<iostream>
+	<iomanip>
+	<string>
+
+1712532574 source:c:\users\ruddyard\desktop\poo_matriz_calificaciones\src\calificaciones.cpp
+	"calificaciones.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+
